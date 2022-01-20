@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffdd0"
+    tools:context=".details">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:paddingTop="40dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="Welcome to the\n Dream Hotel" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/pizza1" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/pizza2" />
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="290dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/pizza3" />
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="290dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/pizza4" />
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/pizza5" />
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="170dp"
+                    android:layout_height="230dp"
+                    android:src="@drawable/pizza6" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="190dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/pizza7" />
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/pizza8" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_below="@id/imageView8"
+                    android:paddingTop="40dp"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:text="To live a life you have to fill your stomach first " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="40dp"
+                    android:text="NEXT"
+                    android:onClick="next"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

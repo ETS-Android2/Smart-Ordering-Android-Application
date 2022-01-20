@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smart_ordering">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".watermelon"
+            android:theme="@style/AppTheme.NoActionBar" ></activity>
+        <activity
+            android:name=".details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".reportdetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".check_bill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".thankyou"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".checkordersstaff"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".staffmenu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chef_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fooditemdetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".trackorder_customer" />
+        <activity
+            android:name=".orderplaced"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".placeordercart" />
+        <activity
+            android:name=".fooditem_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sub_category_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".dummy" />
+        <activity
+            android:name=".category_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".delete_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".add_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".delete_fooditems" />
+        <activity android:name=".delete_sub_category" />
+        <activity android:name=".delete_table" />
+        <activity android:name=".add_table" />
+        <activity
+            android:name=".reports"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".check_orders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".faltu" />
+        <activity android:name=".sub_category" />
+        <activity android:name=".category_details" />
+        <activity android:name=".table_details" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".add_fooditem_details" />
+        <activity
+            android:name=".customerdetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".forgetPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".regstration"
+            android:label="Registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
